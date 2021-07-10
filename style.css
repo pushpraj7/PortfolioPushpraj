@@ -1,0 +1,273 @@
+
+@import url(variables.css);
+@import url(global.css);
+
+ .header-content .navbar .container-fluid .navbar-brand{
+  color:var(--title-color);
+  padding-left:20rem;
+  font-family: 'Righteous', cursive;
+  font-size: 1.7rem;
+}
+
+.navbar .container-fluid .collapse {
+  padding: 0rem 15rem;
+}
+.navbar .container-fluid .collapse .nav-item .nav-link {
+  font-family: var(--roboto);
+  font-size: 0.9rem;
+  color:var(--title-color);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  font-weight:800;
+  /* font-family: 'Encode Sans SC', sans-serif; */
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .active{
+  background:var(--gradient-color2);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  width:700;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover{
+  background:var(--gradient-color2);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+
+body{
+  background: url(./img/box.jpg) no-repeat;
+  background-size: cover;
+  height: 800px;
+  background-position: -550px -350px;
+  border-left: 50px solid #9d0208;
+  border-top: 50px solid #003049;
+}
+
+
+
+.title-site {
+  padding-left: 14rem;
+
+}
+
+.main-content .main-poster .title-site h3{
+  padding-top: 50%;
+  font-weight:500;
+}
+
+.main-content .main-poster .title-site h3::after{
+  content:"";
+  height:2px;
+  width:18vw;
+  background: black;
+  display: inline-block;
+  margin-left:5%;
+  transform:translateY(-10px);
+}
+
+.main-content .main-poster .title-site h1{
+  font-size: 5rem;
+}
+
+.main-content .main-poster .title-site h4{
+  font-size: 1.5rem;
+}
+.main-content .main-poster .main-img img{
+  padding:7rem 0;
+  width:90rem;
+}
+
+
+.title-text{
+  font:normal bold 50px/72px var(--roboto);
+
+}
+/* .main-content .main-poster{
+  background:url(./img/try4.png);
+
+} */
+/* ------------------------------------------------- */
+.main-content .about-area{
+  padding:8rem 5rem;
+}
+
+.main-content .about-area .about-title h2 > span{
+  display: block;
+  font:normal bold 49px/60px var(--roboto);
+  letter-spacing:21px;
+}
+
+.main-content .about-area .about-title .paragraph > p{
+  padding-top:4rem;
+  padding-bottom:1rem;
+}
+
+.brand-area .container-fluid .single-brand > img{
+  shape-margin:5px;
+}
+
+.main-content .brand-area{
+  padding:1rem 10rem;
+  margin-bottom: 4rem;
+}
+
+.main-content .brand-area .first-row .col-lg-4{
+  display:flex;
+  justify-content:center;
+}
+
+.main-content .brand-area .first-row .col-lg-4 > .single-brand{
+  border:1px solid var(--border-color);
+  text-align:center;
+  padding:1.8rem 0rem;
+  margin:0.9rem 0;
+  width:180px;
+  height:220px;
+  cursor:pointer;
+  transition:transform .4s ease;
+}
+
+.main-content .brand-area .first-row .col-lg-4 > .single-brand > img{
+  width:50%;
+  height:80%;
+}
+
+.main-content .brand-area .first-row .col-lg-4 > .single-brand:hover{
+  box-shadow:var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.main-content .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
+  filter:brightness(1.30);
+}
+
+.main-content .brand-area .experience-area span{
+  display:block;
+}
+
+/* ------------------------------------------------------------- */
+.courses-title h1{
+  font:normal 500 18px/3px var(--roboto);
+  color:000000;
+  padding:2rem 0;
+  border: 2px solid black;
+  border-radius:8px;
+  margin-bottom:1rem;
+  background: var(--gradient-color2);
+
+}
+
+.courses-title h1{
+  box-shadow:var(--box-shadow);
+}
+
+.courses-title p{
+  padding-bottom:2.7rem;
+
+}
+
+.main-content .courses-area{
+  padding:7rem 2rem;
+}
+
+.main-content .courses-area .courses-title{
+  padding:0 14rem;
+}
+
+.main-content .courses-area .courses-title h1{
+  font-size:35px;
+}
+
+.main-content .courses-area .courses-list .courses{
+  background:#cff6ec;
+  padding:2rem 0;
+  width:20rem;
+  margin:1rem 0;
+  transition:box-shadow .7s ease;
+}
+
+.main-content .courses-area .courses-list .courses:hover{
+  box-shadow:var(--box-shadow);
+  filter:brightness(1.05);
+}
+
+.brand-area .experience-area{
+  padding-top:1rem;
+  padding-left: 8rem;
+
+}
+
+.brand-area .experience-area h1{
+  padding:0.3rem 5rem;
+  font:normal 700 90px/100px 'Permanent Marker', cursive;
+}
+
+.downn{
+  background:url(./img/bg10.jpg);
+  height:530px;
+  width:100%;
+}
+
+.downn .ffaa .logo{
+  padding-top: 8rem;
+  padding-left: 8rem;
+}
+.downn .ffaa .social{
+  padding-left: 17rem;
+}
+
+.info{
+  box-shadow:var(--box-shadow);
+  padding:1rem 1rem;
+}
+.forming{
+  box-shadow:var(--box-shadow);
+  padding:2rem 2rem;
+  font-family: var(--roboto);
+}
+.forming input{
+  margin-bottom:2rem;
+}
+
+.forming button{
+  margin-top:2rem;
+}
+
+.info i{
+  color:#00b4d8 ;
+
+}
+
+.contact{
+  margin-bottom:4rem;
+}
+
+.downn .ffaa .social h5{
+  /* padding-top:1rem; */
+  padding-left: 23rem;
+  padding-bottom:2rem;
+  font:normal 500 26px/29px var(--roboto);
+  color:whitesmoke;
+}
+
+.downn .ffaa .social a{
+  padding:0 2rem;
+
+}
+
+.downn .ffaa .social a > i{
+  color:whitesmoke;
+  padding-bottom: 2rem;
+}
+
+.downn .ffaa .social .icons{
+  padding-left:12rem;
+}
+
+.downn .ffaa .social a > i:hover{
+  filter:brightness(1.3);
+
+}
